@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <Card />
-      <Player />
+      <Player player="x" />
     </>
   )
 }
