@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from './objects/Card/index'
+import Player from './objects/Player'
 import Header from './components/Header'
+
 
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <>
       <Header />
       <Card />
+      <Player />
     </>
   )
 }
